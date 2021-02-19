@@ -20,7 +20,7 @@ Open your localhost page in a browser and use the app!
 ## Notes ##
 This is Week 3 at Makers, where we have been introduced to creating a web app using Sinatra.
 
-Please can you provide me soem feedback on my overall approach to the project - layout, use of HTML and CSS (forms, images etc.).
+Please can you provide me with feedback on my overall approach to the project - layout, use of HTML and CSS (forms, images etc.).
 
 Also, my method of assessing the date information is very convoluted.  Please can you provide some tips on how better to do this?
 
