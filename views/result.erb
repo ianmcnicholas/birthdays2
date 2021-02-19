@@ -1,0 +1,29 @@
+<center><style>
+body {background-color: powderblue;}
+h1   {color: darkblue;}
+form    {color: blue;}
+body {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+</style>
+
+<% if @birthday[5..9] == @today[5..9] %>
+<h1>Your birthday is today! You are <%= @age %> today!</h1>
+<img src=https://pbs.twimg.com/media/Ce6OhNQUIAAeBFg.jpg width="75%" height="75%">
+<% end %>
+
+<% if @time_to_birthday_this_year > 1 %>
+<h1>Your birthday is in <%= @time_to_birthday_this_year %> days!</h1>
+<img src=https://i.ytimg.com/vi/CvvAftMZYKM/maxresdefault.jpg width="75%" height="75%">
+<% end %>
+
+<% if @time_to_birthday_this_year == 1 %>
+<h1>Your birthday is tomorrow!</h1>
+<img src=https://i.ytimg.com/vi/CvvAftMZYKM/maxresdefault.jpg width="75%" height="75%">
+<% end %>
+
+<% if @time_to_birthday_this_year < 0 %>
+<h1>Your birthday is in <%= @time_to_birthday_next_year %> days!</h1>
+<img src=https://i.ytimg.com/vi/CvvAftMZYKM/maxresdefault.jpg width="75%" height="75%">
+<% end %>
+</center>
